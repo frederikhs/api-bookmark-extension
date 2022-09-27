@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="w3.css">
+    <title>Bookmark Syncer</title>
+</head>
+<body style="width: 600px">
+
+<div class="w3-card-4">
+    <div class="w3-container w3-dark-gray">
+        <h2>Bookmark Syncer</h2>
+    </div>
+    <div class="w3-container">
+        <p>
+            <label class="w3-text-dark-gray"><b>Bookmark Remote Source</b></label>
+            <span class="w3-small">(only gist.githubusercontent.com or pastebin domain allowed)</span>
+            <label>
+                <input id="pastebin-link" class="w3-input w3-border w3-white" name="bookmark-remote-source" type="text">
+            </label>
+        </p>
+        <p>
+            <button id="btn-save" class="w3-btn w3-blue">Save</button>
+            <button id="btn-sync" class="w3-btn w3-dark-gray">Sync</button>
+        </p>
+        <span id="sync-status"></span>
+    </div>
+</div>
+<script src="jquery.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
