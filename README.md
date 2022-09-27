@@ -23,8 +23,9 @@ As this extension is not yet available on the Chrome Web Store it must be instal
 
 1. Clone this repository
 2. Go to [chrome://extensions/](chrome://extensions/)
-3. Click "Load unpacked" and choose the location of the repository
-4. Enjoy
+3. Enable "Developer Mode"
+4. Click "Load unpacked" and choose the location of the repository
+5. Enjoy
 
 ### Todo
 
